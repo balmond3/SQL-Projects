@@ -1,0 +1,54 @@
+/* What does the app's SQL look like? */
+/*instagram account of celebrities*/
+CREATE TABLE instagram 
+(id INTEGER PRIMARY KEY AUTOINCREMENT,
+fullname TEXT,
+insta_account TEXT,
+followers INTEGER,
+country TEXT);
+ 
+INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Cristiano Ronaldo", "cristiano", 421000000, "Portugal");
+ 
+INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Kylie Jenner", "kyliejenner", 324000000, "USA");
+ 
+INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Lionel Messi", "leomessi", 316000000, "Argentina");
+ 
+INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Dwayne Johnson", "therock", 307000000, "USA");
+ 
+INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Selena Gomez", "selenagomez", 366000000, "USA");
+ 
+INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Ariana Grande", "arianagrande", 303000000, "USA");
+ 
+INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Kim Kardashian", "kimkardashian", 297000000, "USA");
+ 
+INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Beyonce Knowles", "beyonce", 247000000, "USA");
+ 
+INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Khloe Kardashian", "khloekardashian", 231000000, "USA");
+ 
+INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Justin Bieber", "justinbieber", 227000000, "Canada");
+ 
+INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Kendal Jenner", "kendalljenner", 228000000, "USA");
+ 
+INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Taylor Swift", "taylorswift", 205000000, "USA");
+ 
+INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Jennifer Lopez", "jlo", 201000000, "USA");
+
+INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Virat Kohli", "virat.kohli", 188000000, "India");
+ 
+INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Nicki Minaj", "nickiminaj", 182000000, "Trinidad");
+ 
+INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Neymar Santos jr", "neymarjr", 172000000, "Brazil");
+ 
+INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Kourtney Kardashian", "kourtneykardash", 167000000, "USA");
+ 
+INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Miley Cyrus", "mileycyrus", 164000000, "USA");
+ 
+SELECT * FROM instagram;
+
+/*changes nicki minaj country from trinidad to usa*/
+UPDATE instagram SET country = "USA" WHERE id = "15";
+SELECT * FROM instagram;
+
+/*DELETES Nicki Minaj from the table*/
+DELETE FROM instagram WHERE id = "15";
+SELECT * FROM instagram;
