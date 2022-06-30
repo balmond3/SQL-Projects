@@ -1,2 +1,2 @@
 # SQL-Projects
-Collection of my SQL Personal Projects 
+SQL Portfolio Projects
