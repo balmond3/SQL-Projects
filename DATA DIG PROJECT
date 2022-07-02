@@ -122,7 +122,7 @@ SELECT product, MIN(price) AS min_price, MAX(price) AS max_price, AVG(price) AS 
 SELECT COUNT(*) AS number_of_transactions,payment_type FROM sales GROUP BY payment_type;
 /*Check for types of Citizenships*/
 SELECT name,payment_type,country FROM sales;
-SELECT COUNT(*), 
+SELECT COUNT(*) AS Number_of_customers, 
     CASE
         WHEN country = "Canada" THEN "Canadian"
         WHEN country = "United states" THEN "American"
