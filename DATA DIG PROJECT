@@ -126,7 +126,7 @@ SELECT COUNT(*) AS Number_of_customers,
     CASE
         WHEN country = "Canada" THEN "Canadian"
         WHEN country = "United states" THEN "American"
-        ELSE "MINORITY"
+        ELSE "Other"
     END as Citizenship
 FROM sales
 GROUP BY Citizenship;
