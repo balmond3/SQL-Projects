@@ -7,41 +7,45 @@ insta_account TEXT,
 followers INTEGER,
 country TEXT);
  
-INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Cristiano Ronaldo", "cristiano", 421000000, "Portugal");
- 
-INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Kylie Jenner", "kyliejenner", 324000000, "USA");
- 
-INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Lionel Messi", "leomessi", 316000000, "Argentina");
- 
-INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Dwayne Johnson", "therock", 307000000, "USA");
- 
-INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Selena Gomez", "selenagomez", 366000000, "USA");
- 
-INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Ariana Grande", "arianagrande", 303000000, "USA");
- 
-INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Kim Kardashian", "kimkardashian", 297000000, "USA");
- 
-INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Beyonce Knowles", "beyonce", 247000000, "USA");
- 
-INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Khloe Kardashian", "khloekardashian", 231000000, "USA");
- 
-INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Justin Bieber", "justinbieber", 227000000, "Canada");
- 
-INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Kendal Jenner", "kendalljenner", 228000000, "USA");
- 
-INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Taylor Swift", "taylorswift", 205000000, "USA");
- 
-INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Jennifer Lopez", "jlo", 201000000, "USA");
+INSERT INTO instagram (fullname, insta_account, followers,country) 
 
-INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Virat Kohli", "virat.kohli", 188000000, "India");
+VALUES 
+
+("Cristiano Ronaldo", "cristiano", 421000000, "Portugal"),
  
-INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Nicki Minaj", "nickiminaj", 182000000, "Trinidad");
+("Kylie Jenner", "kyliejenner", 324000000, "USA"),
  
-INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Neymar Santos jr", "neymarjr", 172000000, "Brazil");
+("Lionel Messi", "leomessi", 316000000, "Argentina"),
  
-INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Kourtney Kardashian", "kourtneykardash", 167000000, "USA");
+("Dwayne Johnson", "therock", 307000000, "USA"),
  
-INSERT INTO instagram (fullname, insta_account, followers,country) VALUES ("Miley Cyrus", "mileycyrus", 164000000, "USA");
+("Selena Gomez", "selenagomez", 366000000, "USA"),
+ 
+("Ariana Grande", "arianagrande", 303000000, "USA"),
+ 
+("Kim Kardashian", "kimkardashian", 297000000, "USA"),
+ 
+("Beyonce Knowles", "beyonce", 247000000, "USA"),
+ 
+("Khloe Kardashian", "khloekardashian", 231000000, "USA"),
+ 
+("Justin Bieber", "justinbieber", 227000000, "Canada"),
+ 
+("Kendal Jenner", "kendalljenner", 228000000, "USA"),
+ 
+("Taylor Swift", "taylorswift", 205000000, "USA"),
+ 
+("Jennifer Lopez", "jlo", 201000000, "USA"),
+
+("Virat Kohli", "virat.kohli", 188000000, "India"),
+ 
+("Nicki Minaj", "nickiminaj", 182000000, "Trinidad"),
+ 
+("Neymar Santos jr", "neymarjr", 172000000, "Brazil"),
+ 
+("Kourtney Kardashian", "kourtneykardash", 167000000, "USA"),
+ 
+("Miley Cyrus", "mileycyrus", 164000000, "USA");
  
 SELECT * FROM instagram;
 
