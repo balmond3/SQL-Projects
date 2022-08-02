@@ -5,12 +5,14 @@ CREATE TABLE billionaires (
     age INTEGER,
     nationality TEXT);
 
-INSERT INTO billionaires (fullname, age, nationality) VALUES ("Elon Musk", 50, "South African/US");   
-INSERT INTO billionaires (fullname, age, nationality) VALUES ("Jeff Bezos", 58, "US");
-INSERT INTO billionaires (fullname, age, nationality) VALUES ("Bill Gates", 66, "US");
-INSERT INTO billionaires (fullname, age, nationality) VALUES ("Warren Buffet", 91, "US");
-INSERT INTO billionaires (fullname, age, nationality) VALUES ("Bernard Arnault", 73, "France");
-INSERT INTO billionaires (fullname, age, nationality) VALUES ("Mark Zucherberg", 37, "US");
+INSERT INTO billionaires (fullname, age, nationality) 
+VALUES 
+    ("Elon Musk", 50, "South African/US"),   
+    ("Jeff Bezos", 58, "US"),
+    ("Bill Gates", 66, "US"),
+    ("Warren Buffet", 91, "US"),
+    ("Bernard Arnault", 73, "France"),
+    ("Mark Zucherberg", 37, "US");
 
 CREATE table wealth (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -18,13 +20,15 @@ CREATE table wealth (
     net_worth TEXT,
     company TEXT);
 
-INSERT INTO wealth (billionaire_id, net_worth, company) VALUES (1, "217 billion", "TESLA");
-    
-INSERT INTO wealth (billionaire_id, net_worth, company) VALUES (2, "168 billion", "Amazon");
-INSERT INTO wealth (billionaire_id, net_worth, company) VALUES (3, "138 billion", "Microsoft");
-INSERT INTO wealth (billionaire_id, net_worth, company) VALUES (4, "117 billion", "Berkshire Hathaway");
-INSERT INTO wealth (billionaire_id, net_worth, company) VALUES (5, "155 billion", "LVMH");
-INSERT INTO wealth (billionaire_id, net_worth, company) VALUES (6, "75 billion", "Facebook");
+INSERT INTO wealth 
+(billionaire_id, net_worth, company) 
+VALUES 
+    (1, "217 billion", "TESLA"),    
+    (2, "168 billion", "Amazon"),
+    (3, "138 billion", "Microsoft"),
+    (4, "117 billion", "Berkshire Hathaway"),
+    (5, "155 billion", "LVMH"),
+    (6, "75 billion", "Facebook");
 
 /*SELECT which company they own and what their networth is*/
 
